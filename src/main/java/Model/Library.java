@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Library {
-    private List<TheBooks> libraryBooks;
+    private List<TheBooks> libraryBooks = new ArrayList<>();
 
     public Library(List<TheBooks> libraryBooks) {
         this.libraryBooks = libraryBooks;
@@ -13,4 +13,6 @@ public class Library {
     public List<TheBooks> getLibraryBooks() {
         return libraryBooks;
     }
+
+
 }

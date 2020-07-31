@@ -24,5 +24,8 @@ public class LibraryHelper {
         return listOfFreeBooks;
     }
 
+    public void borrowBook(Library library, String title) {
+    }
+
 }
 
